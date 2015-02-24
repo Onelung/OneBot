@@ -56,11 +56,11 @@
         botName: "OneBot",
         language: "english",
         chatLink: "https://rawgit.com/Onelung/basicBot/master/lang/en.json",
-        startupCap: 1, // 1-200
-        startupVolume: 0, // 0-100
-        startupEmoji: false, // true or false
+        startupCap: 50, // 1-200
+        startupVolume: 75, // 0-100
+        startupEmoji: true, // true or false
         maximumAfk: 120,
-        afkRemoval: true,
+        afkRemoval: false,
         maximumDc: 60,
         bouncerPlus: true,
         lockdownEnabled: false,
@@ -68,8 +68,8 @@
         maximumLocktime: 10,
         cycleGuard: true,
         maximumCycletime: 10,
-        voteSkip: false,
-        voteSkipLimit: 10,
+        voteSkip: true,
+        voteSkipLimit: 5,
         timeGuard: true,
         maximumSongLength: 10,
         autodisable: true,
